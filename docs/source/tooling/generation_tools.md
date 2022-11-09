@@ -1,4 +1,3 @@
-
 # SBoM Generation Tools
 
 ## CycloneDX Tool Center
