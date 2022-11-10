@@ -1,12 +1,11 @@
-
-=================
+===========================================
 Existing SBoM Specifications and Advisories
-=================
+===========================================
 
 .. toctree::
    :maxdepth: 2
 
-   spdx <spdx.md>
-   cyclonedx <cyclonedx.md>
-   swid <swid.md>
+   SPDX <spdx.md>
+   CycloneDX <cyclonedx.md>
+   SWID <swid.md>
    vex <vex.md>
