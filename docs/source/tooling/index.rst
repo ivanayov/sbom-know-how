@@ -6,8 +6,8 @@ Existing SBoM Specifications and Advisories
 .. toctree::
    :maxdepth: 2
 
-   consumption_tools <consumption_tools.rst>
-   generation_tools <generation_tools.rst>
-   swid_tools <swid_tools.md>
-   vex_tools <vex_tools.md>
+   Consumption Tools <consumption_tools.rst>
+   Generation Tools <generation_tools.rst>
+   SWID Tools <swid_tools.md>
+   VEX Tools <vex_tools.md>
 
