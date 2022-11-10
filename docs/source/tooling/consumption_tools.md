@@ -1,4 +1,9 @@
 # SBoM Consumption Tools
+
+## DaggerBoard
+
+[DaggerBoard](https://github.com/nyph-infosec/daggerboard) is a vulnerability scanning tool, based on ingesting SBoM files (CycloneDX,SPDX), that outputs results in a human-readable format.
+
 ## FOSSology
 
 FOSSology is a compliance scanner tool for license, copyright and export control. Documentation can be found on [the official web site](https://www.fossology.org).
