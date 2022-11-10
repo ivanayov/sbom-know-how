@@ -4,6 +4,14 @@
 
 [DaggerBoard](https://github.com/nyph-infosec/daggerboard) is a vulnerability scanning tool, based on ingesting SBoM files (CycloneDX,SPDX), that outputs results in a human-readable format.
 
+## Dependency-Track
+
+[Dependency-Track](https://github.com/DependencyTrack/dependency-track) uses [CycloneDX](../specs/cyclonedx.md) SBoMs to monitor component usage across all versions of the application in its portfolio, in order to identify and reduce risk in the software supply chain.
+
+## SBOM Scorecard
+
+[SBOM Scorecard](https://github.com/eBay/sbom-scorecard) is a tool for providing metrics for SBoM quality, insluding spec compliance, generation information and package ids, licensed and version.
+
 ## FOSSology
 
 FOSSology is a compliance scanner tool for license, copyright and export control. Documentation can be found on [the official web site](https://www.fossology.org).
