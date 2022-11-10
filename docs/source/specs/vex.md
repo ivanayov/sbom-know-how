@@ -16,7 +16,7 @@ the vulnerability. An update will be provided in a later release.
 For latest updates, please refer to [VEX Status Justifications, June 2022](https://www.cisa.gov/sites/default/files/publications/VEX_Status_Justification_Jun22.pdf).
 
 
-# Useful References
+## Useful References
 
 * [VEX Guide](https://www.rezilion.com/guides/vulnerability-exploitability-exchange-vex-a-guide/) from Rezilion.
 * [VEX Tools](../tooling/vex_tools.md)

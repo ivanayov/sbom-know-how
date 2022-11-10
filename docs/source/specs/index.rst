@@ -8,4 +8,4 @@ Existing SBoM Specifications and Advisories
    SPDX <spdx.md>
    CycloneDX <cyclonedx.md>
    SWID <swid.md>
-   vex <vex.md>
+   VEX <vex.md>
