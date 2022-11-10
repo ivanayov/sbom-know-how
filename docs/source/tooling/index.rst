@@ -1,7 +1,7 @@
 
-=================
-Existing SBoM Specifications and Advisories
-=================
+==============================================
+Existing SBoM Generation and Consumption Tools
+==============================================
 
 .. toctree::
    :maxdepth: 2

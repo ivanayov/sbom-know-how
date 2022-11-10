@@ -1,6 +1,6 @@
 #  Software Package Data Exchange (SPDX)
 
-SPDX is an open standard for communication SBoM information, including components, licenses, copyright, and security references. It was initiated as a part of the Linux Foundation’s [Open Compliance Program](https://compliance.linuxfoundation.org) and is an official ISO-approved standard.
+SPDX is an open standard for communicating SBoM information, including components, licenses, copyright, and security references. It was initiated as a part of the Linux Foundation’s [Open Compliance Program](https://compliance.linuxfoundation.org) and is an official ISO-approved standard.
 
 For full detail, please see the [SPDX specification documentation](https://spdx.dev).
 

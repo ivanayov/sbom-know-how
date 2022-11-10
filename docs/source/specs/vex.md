@@ -1,6 +1,6 @@
 # Vulnerability Exploitability eXchange (VEX)
 
-The primary use cases for VEX are to provide users (e.g., operators, developers, and services providers) additional information on whether a product is impacted by a specific vulnerability in an included component and, if affected, whether there are actions recommended to remediate.
+The primary use cases for VEX are to provide users (e.g. operators, developers, and services providers) additional information on whether a product is impacted by a specific vulnerability in an included component and, if affected, whether there are actions recommended to remediate.
 
 To reduce effort spent by users investigating non-exploitable vulnerabilities that don’t affect a software product, suppliers can issue a VEX. A VEX is an assertion about the status of a vulnerability in specific products. The status can be:
 
