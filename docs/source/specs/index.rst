@@ -1,5 +1,5 @@
 ===========================================
-Existing SBoM Specifications and Advisories
+Existing SBOM Specifications and Advisories
 ===========================================
 
 .. toctree::

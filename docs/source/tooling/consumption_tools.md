@@ -1,16 +1,20 @@
-# SBoM Consumption Tools
+# SBOM Consumption Tools
+
+## Bomber
+
+[Bomber](https://github.com/devops-kung-fu/bomber) is an application that scans SBOMs for security vulnerabilities. Works with [CycloneDX](../specs/cyclonedx.md) JSON and XML, as well as [SPDX](../specs/spdx.md) and [Syft](generation_tools.md#syft) JSON. 
 
 ## DaggerBoard
 
-[DaggerBoard](https://github.com/nyph-infosec/daggerboard) is a vulnerability scanning tool, based on ingesting SBoM files (CycloneDX,SPDX), that outputs results in a human-readable format.
+[DaggerBoard](https://github.com/nyph-infosec/daggerboard) is a vulnerability scanning tool, based on ingesting SBOM files (CycloneDX,SPDX), that outputs results in a human-readable format.
 
 ## Dependency-Track
 
-[Dependency-Track](https://github.com/DependencyTrack/dependency-track) uses [CycloneDX](../specs/cyclonedx.md) SBoMs to monitor component usage across all versions of the application in its portfolio, in order to identify and reduce risk in the software supply chain.
+[Dependency-Track](https://github.com/DependencyTrack/dependency-track) uses [CycloneDX](../specs/cyclonedx.md) SBOMs to monitor component usage across all versions of the application in its portfolio, in order to identify and reduce risk in the software supply chain.
 
 ## SBOM Scorecard
 
-[SBOM Scorecard](https://github.com/eBay/sbom-scorecard) is a tool for providing metrics for SBoM quality, insluding spec compliance, generation information and package ids, licensed and version.
+[SBOM Scorecard](https://github.com/eBay/sbom-scorecard) is a tool for providing metrics for SBOM quality, including spec compliance, generation information and package ids, licensed and version.
 
 ## FOSSology
 
@@ -18,15 +22,15 @@ FOSSology is a compliance scanner tool for license, copyright and export control
 
 ## Grype
 
-[Grype](https://github.com/anchore/grype) is a vulnerability scanner for container images and file systems. If scans for vulnerabilities for both operating system and language-specific packages. Supports Docker, OCI and Singularity image formats, as well as consumes SBoM attestations.
+[Grype](https://github.com/anchore/grype) is a vulnerability scanner for container images and file systems. If scans for vulnerabilities for both operating system and language-specific packages. Supports Docker, OCI and Singularity image formats, as well as consumes SBOM attestations.
 
 ## Hoppr Cop
 
-[Hoppr Cop](https://github.com/lmco/hoppr-cop) generates vulnerability information from CycloneDX SBoMs. It's available both as a CLI and a python library.
+[Hoppr Cop](https://github.com/lmco/hoppr-cop) generates vulnerability information from CycloneDX SBOMs. It's available both as a CLI and a python library.
 
 ## KubeClarity
 
-KubeClarity detects and manages SBoMs and vulnerabilities of container images and filesystems. It can also scan K8s runtime to detect vulnerabilities discovered post-deployment. It uses [Grype](https://github.com/anchore/grype) and [Dependency-Track](https://github.com/DependencyTrack/dependency-track) for vulnerability scanning. More detail can be found in the [KubeClarity documentation](https://github.com/openclarity/kubeclarity).
+KubeClarity detects and manages SBOMs and vulnerabilities of container images and file systems. It can also scan K8s runtime to detect vulnerabilities discovered post-deployment. It uses [Grype](https://github.com/anchore/grype) and [Dependency-Track](https://github.com/DependencyTrack/dependency-track) for vulnerability scanning. More detail can be found in the [KubeClarity documentation](https://github.com/openclarity/kubeclarity).
 
 ## K8s BOM
 
@@ -38,16 +42,16 @@ The [OSS Review Toolkit](https://github.com/oss-review-toolkit/ort) provides a l
 
 ## SBOM Diff Action
 
-[SBOM Diff Action](https://github.com/ckotzbauer/sbom-diff-action) is a GitHub integration tool that creates diffs for SBoMs from PR changes.
+[SBOM Diff Action](https://github.com/ckotzbauer/sbom-diff-action) is a GitHub integration tool that creates diffs for SBOMs from PR changes.
 
-## SBoM Operator
+## SBOM Operator
 
-The SBoM Operator allows checks for changed images and pods within a cluster. Provides vulnerability scans via the [Vulnerability Operator](#vulnerability-operator). For more detail, please refer to the SBoM Operators [Analysis-Trigger section](https://github.com/ckotzbauer/sbom-operator#analysis-trigger).
+The SBOM Operator allows checks for changed images and pods within a cluster. Provides vulnerability scans via the [Vulnerability Operator](#vulnerability-operator). For more detail, please refer to the SBOM Operators [Analysis-Trigger section](https://github.com/ckotzbauer/sbom-operator#analysis-trigger).
 
-## SBoM Utility
+## SBOM Utility
 
-[SBoM Utility](https://github.com/mrutkows/sbom-utility) is a CycloneDX and SPDX SBoM validation tool.
+[SBOM Utility](https://github.com/mrutkows/sbom-utility) is a CycloneDX and SPDX SBOM validation tool.
 
 ## Vulnerability Operator
 
-The [vulnerability-operator](https://github.com/ckotzbauer/vulnerability-operator) uses [Grype](https://github.com/anchore/grype) for scanning SBoMs and exports all found vulnerabilities into a JSON format.
+The [vulnerability-operator](https://github.com/ckotzbauer/vulnerability-operator) uses [Grype](https://github.com/anchore/grype) for scanning SBOMs and exports all found vulnerabilities into a JSON format.

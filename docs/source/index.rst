@@ -1,10 +1,10 @@
-.. SBoMKnowHow documentation master file, created by
+.. SBOMKnowHow documentation master file, created by
    sphinx-quickstart on Mon Oct 31 13:10:57 2022.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
 ========================================
-SBoM Know How Documentation
+SBOM Know How Documentation
 ========================================
 
 .. include:: ../../README.rst

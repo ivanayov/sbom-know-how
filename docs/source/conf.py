@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'SBoM Know How'
+project = 'SBOM Know How'
 copyright = '2022, VMware Inc.'
 author = 'Ivana Atanasova'
 release = '0.1'
