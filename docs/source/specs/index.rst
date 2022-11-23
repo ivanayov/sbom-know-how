@@ -9,3 +9,4 @@ Existing SBOM Specifications and Advisories
    CycloneDX <cyclonedx.md>
    SWID <swid.md>
    VEX <vex.md>
+   SBOM OCI <sboom_oci.md>
