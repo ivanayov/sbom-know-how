@@ -52,6 +52,11 @@ The SBOM Operator allows checks for changed images and pods within a cluster. Pr
 
 [SBOM Utility](https://github.com/mrutkows/sbom-utility) is a CycloneDX and SPDX SBOM validation tool.
 
+## Trivy
+
+[Trivy](https://github.com/aquasecurity/trivy) scans container images, file systems, Git repositories, and Kubernetes clusters or resources for open source packages and dependencies, CVEs, IaC misconfigurations, and sensitive information. It generates SBOMs in the scanning process.
+Trivy also allows signing and verifying [SBOM attestations](https://aquasecurity.github.io/trivy/v0.34/docs/attestation/sbom/).
+
 ## Vulnerability Operator
 
 The [vulnerability-operator](https://github.com/ckotzbauer/vulnerability-operator) uses [Grype](https://github.com/anchore/grype) for scanning SBOMs and exports all found vulnerabilities into a JSON format.
