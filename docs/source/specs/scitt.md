@@ -4,6 +4,7 @@
 
 
 ##  Architecture Overview
+```
                        .----------.
                       |  Artifact  |
                        '----+-----'
@@ -41,6 +42,7 @@
                           .--------+---------.  .-------+---------.
    Auditor       -->     / Collect Receipts /  / Replay Registry /
                         '------------------'  '-----------------'
+```
 
 ## GitHub and Community efforts
 
