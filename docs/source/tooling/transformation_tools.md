@@ -7,6 +7,6 @@
 
 [SBOM Composer](https://github.com/vmware-samples/sbom-composer) is a tool that serves for composing [SPDX](../specs/spdx.md) SBOM files into a single SPDX document. Not restricted by the contents of the composable SBOMs, as long as they are valid SPDX. The version of the final document is the latest amongst all composed.
 
-## Tejelote
+## Tejolote
 
-[Tejelote](https://github.com/puerco/tejolote) is a tool that consumes SBOMs and generates [SLSA](https://slsa.dev/) provenance attestations about build runs.
+[Tejolote](https://github.com/puerco/tejolote) is a tool that consumes SBOMs and generates [SLSA](https://slsa.dev/) provenance attestations about build runs.
