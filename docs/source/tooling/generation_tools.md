@@ -24,6 +24,10 @@ FatBOM generates SBOMs via [Syft](#syft), [Salus](#salus), [SPDX SBOM Generator]
 
 [K8s BOM](https://github.com/kubernetes-sigs/bom) generates SBOMs from files, images, and docker archives and supports pulling images from remote registries. The SBоM data can be exported to an [in-toto](https://in-toto.io) provenance attestation. For SBOM scanning details, please see the [K8s BOM consumption tools](consumption_tools.md#k8s-bom) section.
 
+## OSS Review Toolkit
+
+The [OSS Review Toolkit](https://github.com/oss-review-toolkit/ort)'s [Reporter](https://github.com/oss-review-toolkit/ort/blob/main/README.md#reporter) generates SBOMs in [CycloneDX](../specs/cyclonedx.md) or [SPDX](../specs/spdx.md) format.
+
 ## Pkgconf bomtool
 
 Bomtool is a feature of [pkgconf](http://pkgconf.org) and can be used for generating SBOMs for C/C++ packages under Alpine. Usage:
@@ -50,4 +54,4 @@ The [SPDX SBOM Generator](https://github.com/opensbom-generator/spdx-sbom-genera
 
 ## Tern
 
-[Tern](https://github.com/tern-tools/tern) is a software package inspection tool that generates SBOMs for container images and Dockerfiles. Supports both [SPDX](../specs/spdx.md) and [CycloneDX](../specs/cyclonedx.md), [test](../specs/swid.md).
+[Tern](https://github.com/tern-tools/tern) is a software package inspection tool that generates SBOMs for container images and Dockerfiles. Supports both [SPDX](../specs/spdx.md) and [CycloneDX](../specs/cyclonedx.md), [SWID](../specs/swid.md).
