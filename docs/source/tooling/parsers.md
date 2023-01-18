@@ -11,6 +11,7 @@ SPDX has the following language-specific tools:
 * [spdx-tools-js](https://github.com/spdx/spdx-tools-js)
 * [tools-python](https://github.com/spdx/tools-python)
 * [spdx-tools in pypi](https://pypi.org/project/spdx-tools/)
+* [opensbom-generator/parsers](https://github.com/opensbom-generator/parsers) provides parsers for a wide range of package managers
 
 ## Conversion tools
 
