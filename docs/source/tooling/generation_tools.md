@@ -1,5 +1,9 @@
 # SBOM Generation Tools
 
+## apko
+
+[apko](https://github.com/chainguard-dev/apko) provides SBOM support by producing SBOM documents for OCI images.
+
 ## CycloneDX Tool Center
 
 Generates CycloneDX format SBOMs. Full list of tools can be found in the [CycloneDX Tool Center](https://cyclonedx.org/tool-center/).

@@ -1,4 +1,9 @@
 # SBOM Transformation Tools
+
+## apko
+
+[apko](https://github.com/chainguard-dev/apko) produces SBOM documents and provides an [SBOM composition](https://github.com/chainguard-dev/apko/blob/main/docs/sbom-composition.md) functionality
+
 ## CDX2SPDX
 
 [CDX2SPDX](https://github.com/spdx/cdx2spdx) is a Java tool that converts [CycloneDX](../specs/cyclonedx.md) SBOMs to [SPDX](../specs/spdx.md).
