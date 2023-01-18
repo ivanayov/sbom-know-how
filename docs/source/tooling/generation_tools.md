@@ -44,6 +44,11 @@ where package name should be linked in `pkgconf`.
 
 [SBOM Operator](https://github.com/ckotzbauer/sbom-operator) uses [Syft](#syft) to generate SBOMs from each image deployed in a Kubernetes cluster. Relies on [go-containeregistry](https://github.com/google/go-containerregistry) for downloading images. Allows [analysis](consumption_tools.md#sbom-operator).
 
+## ScanCode
+
+[ScanCode](https://github.com/nexB/scancode) is an OSS tool from [AboutCode](https://www.aboutcode.org/) that generates SBOMs for containers, system packages, and many language packages. Supports both [SPDX](../specs/spdx.md) and [CycloneDX](../specs/cyclonedx.md). It's embedded in [ORT](#oss-review-toolkit), [Tern](#tern), [FOSSology](consumption_tools.md#fossology), Fosslight, Barista, Philips software license-scanner, and others.
+It provides a ScanCode.io (CLI, web UI and REST API) to read and write SPDX and CycloneDX.
+
 ## SPDX SBOM Generator
 
 The [SPDX SBOM Generator](https://github.com/opensbom-generator/spdx-sbom-generator) generates SBOMs from source code. The supported package managers can be found the the tool [Overview](https://github.com/opensbom-generator/spdx-sbom-generator#overview).

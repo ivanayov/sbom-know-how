@@ -52,6 +52,11 @@ The SBOM Operator allows checks for changed images and pods within a cluster. Pr
 
 [SBOM Utility](https://github.com/mrutkows/sbom-utility) is a CycloneDX and SPDX SBOM validation tool.
 
+## ScanCode.io
+
+[ScanCode.io](https://nexb.github.io/scancode.io-homepage/) is a CLI, web UI and REST API that can read and write [SPDX](../specs/spdx.md) and [CycloneDX](../specs/cyclonedx.md). It embeds [scancode-toolkit](https://github.com/nexB/scancode-toolkit) and can scan for origin, vulnerabilities and license a large range of codebase including first class support for Linux containers and docker images, VM Images, Windows containers, Windows VM images as well as packages and codebase with pre-defined configurable pipelines. It detects all archives, installed and embedded formats for packages from Maven, Pypi, Ruby, Rust cargo, Go, NuGet, Alpine, Debian and derivative, RPM distributions, Windows, npm and yarn, Bower, Chef, Cocoapods, conda, cran, haxe, MSI, opam, pubspec.
+Both ScanCode toolkit and ScanCode.io are extensively based on and use [Package URL](../specs/purl.md).
+
 ## Trivy
 
 [Trivy](https://github.com/aquasecurity/trivy) scans container images, file systems, Git repositories, and Kubernetes clusters or resources for open source packages and dependencies, CVEs, IaC misconfigurations, and sensitive information. It generates SBOMs in the scanning process.
