@@ -1,0 +1,5 @@
+name: docs
+dependencies:
+  - pip:
+    - sphinxcontrib-plantuml
+    - sphinx-needs

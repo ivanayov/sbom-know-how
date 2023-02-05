@@ -7,14 +7,14 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'SBOM Know How'
-copyright = '2022, VMware Inc.'
+copyright = '2023, VMware Inc.'
 author = 'Ivana Atanasova'
 release = '0.1'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['myst_parser','sphinx.ext.autosectionlabel']
+extensions = ['myst_parser','sphinx.ext.autosectionlabel']#,'sphinxcontrib.plantuml','sphinx_needs']
 
 templates_path = ['_templates']
 exclude_patterns = []
