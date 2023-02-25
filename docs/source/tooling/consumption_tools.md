@@ -65,3 +65,8 @@ Trivy also allows signing and verifying [SBOM attestations](https://aquasecurity
 ## Vulnerability Operator
 
 The [vulnerability-operator](https://github.com/ckotzbauer/vulnerability-operator) uses [Grype](https://github.com/anchore/grype) for scanning SBOMs and exports all found vulnerabilities into a JSON format.
+
+
+## SBOM Quality Scoring 
+[sbomqs](https://github.com/interlynk-io/sbomqs) provides comprehensive quality scoring for your sboms. It provide a quick compliance check of your sboms with NTIA minimum elements. It uses license, spec compliance,
+data quality to help generate an accurate score for your sbom generator.  
