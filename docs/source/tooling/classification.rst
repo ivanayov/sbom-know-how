@@ -5,4 +5,4 @@ Tools Classification
 .. needtable::
    :types: tool-data
    :style: datatables
-   :columns: id, tool, generation, consumption, transformation, cyclonedx, spdx
+   :columns: id, tool, generation, consumption, transformation, vulnerabilty scanning, licensing, cyclonedx, spdx
