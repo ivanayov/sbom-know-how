@@ -1,3 +1,5 @@
+.. _vex:
+
 *******************************************
 Vulnerability Exploitability eXchange (VEX)
 *******************************************
@@ -21,4 +23,4 @@ For latest updates, please refer to `VEX Status Justifications, June 2022 <https
 ## Useful References
 
 * `VEX Guide <https://www.rezilion.com/guides/vulnerability-exploitability-exchange-vex-a-guide/>`_ from Rezilion.
-* :doc:`../tooling/vex_tools.rst`
+* :ref:`VEX Tools <vextools>`

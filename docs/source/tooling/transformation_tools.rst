@@ -23,7 +23,7 @@ apko
 CDX2SPDX
 ########
 
-`CDX2SPDX <https://github.com/spdx/cdx2spdx>`_ is a Java tool that converts :doc:`../specs/cyclonedx.rst` SBOMs to :doc:`../specs/spdx.rst`.
+`CDX2SPDX <https://github.com/spdx/cdx2spdx>`_ is a Java tool that converts :ref:`CycloneDX <cdx>` SBOMs to :ref:`SPDX <spdx>`.
 
 .. tool-data:: DaggerBoard
     :id: TOOL28
@@ -37,7 +37,7 @@ CDX2SPDX
 SBOM Composer
 #############
 
-`SBOM Composer <https://github.com/vmware-samples/sbom-composer>`_ is a tool that serves for composing :doc:`../specs/spdx.rst` SBOM files into a single SPDX document. Not restricted by the contents of the composable SBOMs, as long as they are valid SPDX. The version of the final document is the latest amongst all composed.
+`SBOM Composer <https://github.com/vmware-samples/sbom-composer>`_ is a tool that serves for composing :ref:`SPDX <spdx>` SBOM files into a single SPDX document. Not restricted by the contents of the composable SBOMs, as long as they are valid SPDX. The version of the final document is the latest amongst all composed.
 
 .. tool-data:: DaggerBoard
     :id: TOOL29

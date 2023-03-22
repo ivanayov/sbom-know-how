@@ -116,7 +116,7 @@ K8s BOM
 OSS Review Toolkit
 ##################
 
-The `OSS Review Toolkit <https://github.com/oss-review-toolkit/ort>`_'s `Reporter <https://github.com/oss-review-toolkit/ort/blob/main/README.md#reporter>`_ generates SBOMs in :doc:`../specs/cyclonedx.rst` or :doc:`../specs/spdx.rst` format.
+The `OSS Review Toolkit <https://github.com/oss-review-toolkit/ort>`_'s `Reporter <https://github.com/oss-review-toolkit/ort/blob/main/README.md#reporter>`_ generates SBOMs in :ref:`CycloneDX <cdx>` or :ref:`SPDX <spdx>` format.
 
 
 .. tool-data:: Pkgconf bomtool
@@ -184,7 +184,7 @@ SBOM Operator
 ScanCode
 ########
 
-`ScanCode <https://github.com/nexB/scancode-toolkit>`_ is an OSS tool from `AboutCode <https://www.aboutcode.org/>`_ that generates SBOMs for containers, system packages, and many language packages. Supports both :doc:`../specs/spdx.rst` and :doc:`../specs/cyclonedx.rst`. It's embedded in :ref:`ORT <ort>`, :ref:`Tern <tern>`, :ref:`FOSSology <fossology>`, Fosslight, Barista, Philips software license-scanner, and others.
+`ScanCode <https://github.com/nexB/scancode-toolkit>`_ is an OSS tool from `AboutCode <https://www.aboutcode.org/>`_ that generates SBOMs for containers, system packages, and many language packages. Supports both :ref:`SPDX <spdx>` and :ref:`CycloneDX <cdx>`. It's embedded in :ref:`ORT <ort>`, :ref:`Tern <tern>`, :ref:`FOSSology <fossology>`, Fosslight, Barista, Philips software license-scanner, and others.
 It provides a ScanCode.io (CLI, web UI and REST API) to read and write SPDX and CycloneDX.
 
 
@@ -227,4 +227,4 @@ Syft
 Tern
 ####
 
-`Tern <https://github.com/tern-tools/tern>`_ is a software package inspection tool that generates SBOMs for container images and Dockerfiles. Supports both :doc:`../specs/spdx.rst` and :doc:`../specs/cyclonedx.rst`, :doc:`../specs/swid.rst`.
+`Tern <https://github.com/tern-tools/tern>`_ is a software package inspection tool that generates SBOMs for container images and Dockerfiles. Supports both :ref:`SPDX <spdx>` and :ref:`CycloneDX <cdx>`, :ref:`SWID <swid>`.

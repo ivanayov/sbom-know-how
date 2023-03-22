@@ -16,7 +16,7 @@ SBOM Consumption Tools
 Bomber
 ######
 
-`Bomber <https://github.com/devops-kung-fu/bomber>`_ is an application that scans SBOMs for security vulnerabilities. Works with :doc:`../specs/cyclonedx.rst` JSON and XML, as well as :doc:`../specs/spdx.rst` and :ref:`Syft <syft>` JSON. 
+`Bomber <https://github.com/devops-kung-fu/bomber>`_ is an application that scans SBOMs for security vulnerabilities. Works with :ref:`CycloneDX <cdx>` JSON and XML, as well as :ref:`SPDX <spdx>` and :ref:`Syft <syft>` JSON. 
 
 
 .. tool-data:: DaggerBoard
@@ -50,7 +50,7 @@ DaggerBoard
 Dependency-Track
 ################
 
-`Dependency-Track <https://github.com/DependencyTrack/dependency-track> `_ uses :doc:`../specs/cyclonedx.rst` SBOMs to monitor component usage across all versions of the application in its portfolio, in order to identify and reduce risk in the software supply chain.
+`Dependency-Track <https://github.com/DependencyTrack/dependency-track> `_ uses :ref:`CycloneDX <cdx>` SBOMs to monitor component usage across all versions of the application in its portfolio, in order to identify and reduce risk in the software supply chain.
 
 
 .. tool-data:: SBOM Scorecard
@@ -200,8 +200,8 @@ SBOM Utility
 ScanCode.io
 ###########
 
-`ScanCode.io <https://nexb.github.io/scancode.io-homepage/>`_ is a CLI, web UI and REST API that can read and write :doc:`../specs/spdx.rst` and :doc:`../specs/cyclonedx.rst`. It embeds `scancode-toolkit <https://github.com/nexB/scancode-toolkit>`_ and can scan for origin, vulnerabilities and license a large range of codebase including first class support for Linux containers and docker images, VM Images, Windows containers, Windows VM images as well as packages and codebase with pre-defined configurable pipelines. It detects all archives, installed and embedded formats for packages from Maven, Pypi, Ruby, Rust cargo, Go, NuGet, Alpine, Debian and derivative, RPM distributions, Windows, npm and yarn, Bower, Chef, Cocoapods, conda, cran, haxe, MSI, opam, pubspec.
-Both ScanCode toolkit and ScanCode.io are extensively based on and use :doc:`../specs/purl.rst`.
+`ScanCode.io <https://nexb.github.io/scancode.io-homepage/>`_ is a CLI, web UI and REST API that can read and write :ref:`SPDX <spdx>` and :ref:`CycloneDX <cdx>`. It embeds `scancode-toolkit <https://github.com/nexB/scancode-toolkit>`_ and can scan for origin, vulnerabilities and license a large range of codebase including first class support for Linux containers and docker images, VM Images, Windows containers, Windows VM images as well as packages and codebase with pre-defined configurable pipelines. It detects all archives, installed and embedded formats for packages from Maven, Pypi, Ruby, Rust cargo, Go, NuGet, Alpine, Debian and derivative, RPM distributions, Windows, npm and yarn, Bower, Chef, Cocoapods, conda, cran, haxe, MSI, opam, pubspec.
+Both ScanCode toolkit and ScanCode.io are extensively based on and use :ref:`Package URL <purl>`.
 
 
 .. tool-data:: Trivy

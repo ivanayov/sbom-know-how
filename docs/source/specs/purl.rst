@@ -1,8 +1,10 @@
+.. _purl:
+
 ***********
 Package URL
 ***********
 
-`PURL <https://github.com/package-url/purl-spec>`_ is a mini spec used in :doc:`cyclonedx.rst`, :doc:`spdx.rst` and `CSAF <https://oasis-open.github.io/csaf-documentation/faq.html>`_ :doc:`vex.rst`.
+`PURL <https://github.com/package-url/purl-spec>`_ is a mini spec used in :ref:`CycloneDX <cdx>`, :ref:`SPDX <spdx>` and `CSAF <https://oasis-open.github.io/csaf-documentation/faq.html>`_ :ref:`VEX <vex>`.
 
 It is is a standardization attempt to reliably identify and locate software packages with the existing approaches. A purl is a URL string used to identify and locate a software package in a mostly universal and uniform way across programing languages, package managers, packaging conventions, tools, APIs and databases.
 
