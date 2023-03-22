@@ -8,7 +8,7 @@ SBOM Consumption Tools
     :consumption: yes
     :cyclonedx: yes
     :spdx: yes
-    :vulnerabilty scanning: yes
+    :vulnerabilty_scanning: yes
 
 
 .. _bomber:
@@ -25,7 +25,7 @@ Bomber
     :consumption: yes
     :cyclonedx: yes
     :spdx: yes
-    :vulnerabilty scanning: yes
+    :vulnerabilty_scanning: yes
 
 
 .. _daggerboard:
@@ -41,7 +41,7 @@ DaggerBoard
     :tool: Dependency-Track
     :consumption: yes
     :cyclonedx: yes
-    :vulnerabilty scanning: yes
+    :vulnerabilty_scanning: yes
     :licensing: yes
 
 
@@ -59,7 +59,7 @@ Dependency-Track
     :consumption: yes
     :cyclonedx: yes
     :spdx: yes
-    :sbom quality: yes
+    :sbom_quality: yes
 
 
 .. _sbomscorecard:
@@ -91,7 +91,7 @@ FOSSology is a compliance scanner tool for license, copyright and export control
     :consumption: yes
     :cyclonedx: yes
     :spdx: yes
-    :vulnerabilty scanning: yes
+    :vulnerabilty_scanning: yes
 
 
 .. _grype:
@@ -107,7 +107,7 @@ Grype
     :tool: Hoppr Cop
     :consumption: yes
     :cyclonedx: yes
-    :vulnerabilty scanning: yes
+    :vulnerabilty_scanning: yes
 
 
 .. _hopprcop:
@@ -173,7 +173,7 @@ The SBOM Operator allows checks for changed images and pods within a cluster. Pr
     :consumption: yes
     :cyclonedx: yes
     :spdx: yes
-    :sbom quality: yes
+    :sbom_quality: yes
 
 
 .. _sbomutility:
@@ -191,7 +191,7 @@ SBOM Utility
     :consumption: yes
     :cyclonedx: yes
     :spdx: yes
-    :vulnerabilty scanning: yes
+    :vulnerabilty_scanning: yes
     :licensing: yes
 
 
@@ -211,7 +211,7 @@ Both ScanCode toolkit and ScanCode.io are extensively based on and use :doc:`../
     :consumption: yes
     :cyclonedx: yes
     :spdx: yes
-    :vulnerabilty scanning: yes
+    :vulnerabilty_scanning: yes
     :licensing: yes
 
 
@@ -230,7 +230,7 @@ Trivy also allows signing and verifying `SBOM attestations <https://aquasecurity
     :consumption: yes
     :cyclonedx: yes
     :spdx: yes
-    :vulnerabilty scanning: yes
+    :vulnerabilty_scanning: yes
 
 
 .. _vulnop:

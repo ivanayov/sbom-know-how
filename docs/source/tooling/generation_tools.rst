@@ -72,7 +72,7 @@ FatBOM generates SBOMs via :ref:`Syft <syft>`, :ref:`Salus <salus>`, :ref:`SPDX 
     :consumption: yes
     :cyclonedx: yes
     :spdx: yes
-    :vulnerabilty scanning: yes
+    :vulnerabilty_scanning: yes
 
 
 .. _kubeclarity:
@@ -107,7 +107,7 @@ K8s BOM
     :consumption: yes
     :cyclonedx: yes
     :spdx: yes
-    :vulnerabilty scanning: yes
+    :vulnerabilty_scanning: yes
     :licensing: yes
 
 
@@ -160,7 +160,7 @@ Salus
     :consumption: yes
     :cyclonedx: yes
     :spdx: yes
-    :vulnerabilty scanning: yes
+    :vulnerabilty_scanning: yes
 
 
 .. _sbomoperator:

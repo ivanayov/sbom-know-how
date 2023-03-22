@@ -31,7 +31,7 @@ CDX2SPDX
     :consumption: yes
     :cyclonedx: yes
     :spdx: yes
-    :vulnerabilty scanning: yes
+    :vulnerabilty_scanning: yes
 
 
 SBOM Composer
@@ -45,7 +45,7 @@ SBOM Composer
     :consumption: yes
     :cyclonedx: yes
     :spdx: yes
-    :vulnerabilty scanning: yes
+    :vulnerabilty_scanning: yes
 
 
 Tejolote
