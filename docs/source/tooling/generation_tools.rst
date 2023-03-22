@@ -6,7 +6,6 @@ SBOM Generation Tools
     :id: TOOL1
     :tool: apko
     :generation: yes
-    :consumption: no
     :transformation: yes
     :cyclonedx: yes
     :spdx: yes
@@ -24,10 +23,7 @@ apko
     :id: TOOL2
     :tool: CycloneDX Tool Center
     :generation: yes
-    :consumption: no
-    :transformation: no
     :cyclonedx: yes
-    :spdx: no
 
 
 .. _cdxtc:
@@ -42,10 +38,7 @@ Generates CycloneDX format SBOMs. Full list of tools can be found in the `Cyclon
     :id: TOOL3
     :tool: Docker SBOM
     :generation: yes
-    :consumption: no
-    :transformation: no
     :cyclonedx: yes
-    :spdx: no
 
 
 .. _dockersbom:
@@ -60,9 +53,7 @@ Generates SBOMs for Docker images with the currently experimental :command:`dock
     :id: TOOL4
     :tool: FatBOM
     :generation: yes
-    :consumption: no
     :transformation: yes
-    :cyclonedx: no
     :spdx: yes
 
 
@@ -79,9 +70,9 @@ FatBOM generates SBOMs via :ref:`Syft <syft>`, :ref:`Salus <salus>`, :ref:`SPDX 
     :tool: KubeClarity
     :generation: yes
     :consumption: yes
-    :transformation: no
     :cyclonedx: yes
     :spdx: yes
+    :vulnerabilty scanning: yes
 
 
 .. _kubeclarity:
@@ -89,7 +80,7 @@ FatBOM generates SBOMs via :ref:`Syft <syft>`, :ref:`Salus <salus>`, :ref:`SPDX 
 KubeClarity
 ###########
 
-`KubeClarity <https://github.com/openclarity/kubeclarity>`_ uses :ref:`Syft <syft>` and `Cyclonedx-gomod <https://github.com/CycloneDX/cyclonedx-gomod>`_ (:ref:`CycloneDX Tool Center <cdxtc>`) to generate SBOMs and offers [SBOM scanning](consumption_tools.md#kubeclarity).
+`KubeClarity <https://github.com/openclarity/kubeclarity>`_ uses :ref:`Syft <syft>` and `Cyclonedx-gomod <https://github.com/CycloneDX/cyclonedx-gomod>`_ (:ref:`CycloneDX Tool Center <cdxtc>`) to generate SBOMs and offers :ref:`SBOM scanning <kubeclarityc>`.
 
 
 .. tool-data:: K8s BOM
@@ -97,8 +88,6 @@ KubeClarity
     :tool: K8s BOM
     :generation: yes
     :consumption: yes
-    :transformation: no
-    :cyclonedx: no
     :spdx: yes
 
 
@@ -108,7 +97,7 @@ K8s BOM
 #######
 
 
-`K8s BOM <https://github.com/kubernetes-sigs/bom>`_ generates SBOMs from files, images, and docker archives and supports pulling images from remote registries. The SBоM data can be exported to an `in-toto <https://in-toto.io>`_ provenance attestation. For SBOM scanning details, please see the [K8s BOM consumption tools](consumption_tools.md#k8s-bom) section.
+`K8s BOM <https://github.com/kubernetes-sigs/bom>`_ generates SBOMs from files, images, and docker archives and supports pulling images from remote registries. The SBOM data can be exported to an `in-toto <https://in-toto.io>`_ provenance attestation. For SBOM scanning details, please see the :ref:`K8s BOM consumption tools <k8sbomc>` section.
 
 
 .. tool-data:: OSS Review Toolkit
@@ -116,26 +105,26 @@ K8s BOM
     :tool: OSS Review Toolkit
     :generation: yes
     :consumption: yes
-    :transformation: no
     :cyclonedx: yes
     :spdx: yes
+    :vulnerabilty scanning: yes
+    :licensing: yes
+
 
 .. _ort:
 
 OSS Review Toolkit
 ##################
 
-The `OSS Review Toolkit <https://github.com/oss-review-toolkit/ort>`_'s `Reporter <https://github.com/oss-review-toolkit/ort/blob/main/README.md#reporter>`_ generates SBOMs in [CycloneDX](../specs/cyclonedx.md) or [SPDX](../specs/spdx.md) format.
+The `OSS Review Toolkit <https://github.com/oss-review-toolkit/ort>`_'s `Reporter <https://github.com/oss-review-toolkit/ort/blob/main/README.md#reporter>`_ generates SBOMs in :doc:`../specs/cyclonedx.rst` or :doc:`../specs/spdx.rst` format.
 
 
 .. tool-data:: Pkgconf bomtool
     :id: TOOL8
     :tool: Pkgconf bomtool
     :generation: yes
-    :consumption: no
-    :transformation: no
-    :cyclonedx: no
     :spdx: yes
+
 
 .. _bomtool:
 
@@ -153,9 +142,6 @@ where package name should be linked in `pkgconf`.
     :id: TOOL9
     :tool: Salus
     :generation: yes
-    :consumption: no
-    :transformation: no
-    :cyclonedx: no
     :spdx: yes
 
 .. _salus:
@@ -166,21 +152,23 @@ Salus
 `Salus <https://github.com/microsoft/sbom-tool>`_ is an Open Source SBOM generation tool implemented by Microsoft. It allows build-time generation from source and packages, as well as `CI/CD pipelines integration <https://github.com/microsoft/sbom-tool#integrating-sbom-tool-to-your-cicd-pipelines>`_ via `GitHub Actions <https://github.com/microsoft/sbom-tool/blob/main/docs/setting-up-github-actions.md>`_ and `Azure DevOps Pipelines <https://github.com/microsoft/sbom-tool/blob/main/docs/setting-up-ado-pipelines.md>`_.
 
 
+
 .. tool-data:: SBOM Operator
     :id: TOOL10
     :tool: SBOM Operator
     :generation: yes
-    :consumption: no
-    :transformation: no
+    :consumption: yes
     :cyclonedx: yes
     :spdx: yes
+    :vulnerabilty scanning: yes
+
 
 .. _sbomoperator:
 
 SBOM Operator
 #############
 
-`SBOM Operator <https://github.com/ckotzbauer/sbom-operator>`_ uses :ref:`Syft <syft>` to generate SBOMs from each image deployed in a Kubernetes cluster. Relies on `go-containeregistry <https://github.com/google/go-containerregistry>`_ for downloading images. Allows [analysis](consumption_tools.md#sbom-operator).
+`SBOM Operator <https://github.com/ckotzbauer/sbom-operator>`_ uses :ref:`Syft <syft>` to generate SBOMs from each image deployed in a Kubernetes cluster. Relies on `go-containeregistry <https://github.com/google/go-containerregistry>`_ for downloading images. Allows :ref:`analysis <sbomoperatorc>`.
 
 
 .. tool-data:: ScanCode
@@ -188,7 +176,6 @@ SBOM Operator
     :tool: ScanCode
     :generation: yes
     :consumption: yes
-    :transformation: no
     :cyclonedx: yes
     :spdx: yes
 
@@ -197,7 +184,7 @@ SBOM Operator
 ScanCode
 ########
 
-`ScanCode <https://github.com/nexB/scancode-toolkit>`_ is an OSS tool from `AboutCode <https://www.aboutcode.org/>`_ that generates SBOMs for containers, system packages, and many language packages. Supports both [SPDX](../specs/spdx.md) and [CycloneDX](../specs/cyclonedx.md). It's embedded in :ref:`ORT <ort>`, :ref:`Tern <tern>`, [FOSSology](consumption_tools.md#fossology), Fosslight, Barista, Philips software license-scanner, and others.
+`ScanCode <https://github.com/nexB/scancode-toolkit>`_ is an OSS tool from `AboutCode <https://www.aboutcode.org/>`_ that generates SBOMs for containers, system packages, and many language packages. Supports both :doc:`../specs/spdx.rst` and :doc:`../specs/cyclonedx.rst`. It's embedded in :ref:`ORT <ort>`, :ref:`Tern <tern>`, :ref:`FOSSology <fossology>`, Fosslight, Barista, Philips software license-scanner, and others.
 It provides a ScanCode.io (CLI, web UI and REST API) to read and write SPDX and CycloneDX.
 
 
@@ -205,9 +192,6 @@ It provides a ScanCode.io (CLI, web UI and REST API) to read and write SPDX and 
     :id: TOOL12
     :tool: SPDX SBOM Generator
     :generation: yes
-    :consumption: no
-    :transformation: no
-    :cyclonedx: no
     :spdx: yes
 
 .. _spdxsbomgen:
@@ -221,8 +205,6 @@ The `SPDX SBOM Generator <https://github.com/opensbom-generator/spdx-sbom-genera
     :id: TOOL13
     :tool: Syft
     :generation: yes
-    :consumption: no
-    :transformation: no
     :cyclonedx: yes
     :spdx: yes
 
@@ -237,8 +219,6 @@ Syft
     :id: TOOL14
     :tool: Syft
     :generation: yes
-    :consumption: no
-    :transformation: no
     :cyclonedx: yes
     :spdx: yes
 
@@ -247,4 +227,4 @@ Syft
 Tern
 ####
 
-`Tern <https://github.com/tern-tools/tern>`_ is a software package inspection tool that generates SBOMs for container images and Dockerfiles. Supports both [SPDX](../specs/spdx.md) and [CycloneDX](../specs/cyclonedx.md), [SWID](../specs/swid.md).
+`Tern <https://github.com/tern-tools/tern>`_ is a software package inspection tool that generates SBOMs for container images and Dockerfiles. Supports both :doc:`../specs/spdx.rst` and :doc:`../specs/cyclonedx.rst`, :doc:`../specs/swid.rst`.
