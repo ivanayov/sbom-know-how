@@ -20,7 +20,7 @@ templates_path = ['_templates']
 exclude_patterns = []
 
 needs_types = [dict(directive="tool-data", title="Tool data", prefix="TOOL", color="", style="node")]
-needs_extra_options = ['tool', 'generation', 'consumption', 'transformation', 'vulnerabilty scanning', 'licensing', 'cyclonedx', 'spdx']
+needs_extra_options = ['tool', 'generation', 'consumption', 'transformation', 'vulnerabilty scanning', 'licensing', 'cyclonedx', 'spdx', 'sbom quality']
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
