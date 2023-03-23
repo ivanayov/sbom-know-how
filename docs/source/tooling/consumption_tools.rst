@@ -53,22 +53,6 @@ Dependency-Track
 `Dependency-Track <https://github.com/DependencyTrack/dependency-track> `_ uses :ref:`CycloneDX <cdx>` SBOMs to monitor component usage across all versions of the application in its portfolio, in order to identify and reduce risk in the software supply chain.
 
 
-.. tool-data:: SBOM Scorecard
-    :id: TOOL18
-    :tool: SBOM Scorecard
-    :consumption: yes
-    :cyclonedx: yes
-    :spdx: yes
-    :sbom_quality: yes
-
-
-.. _sbomscorecard:
-
-SBOM Scorecard
-##############
-
-`SBOM Scorecard <https://github.com/eBay/sbom-scorecard>`_ is a tool for providing metrics for SBOM quality, including spec compliance, generation information and package ids, licensed and version.
-
 .. tool-data:: FOSSology
     :id: TOOL19
     :tool: FOSSology
@@ -167,6 +151,23 @@ SBOM Operator
 The SBOM Operator allows checks for changed images and pods within a cluster. Provides vulnerability scans via the :ref:`Vulnerability Operator <vulnop>`. For more detail, please refer to the SBOM Operators `Analysis-Trigger section <https://github.com/ckotzbauer/sbom-operator#analysis-trigger>`_.
 
 
+.. tool-data:: SBOM Scorecard
+    :id: TOOL18
+    :tool: SBOM Scorecard
+    :consumption: yes
+    :cyclonedx: yes
+    :spdx: yes
+    :sbom_quality: yes
+
+
+.. _sbomscorecard:
+
+SBOM Scorecard
+##############
+
+`SBOM Scorecard <https://github.com/eBay/sbom-scorecard>`_ is a tool for providing metrics for SBOM quality, including spec compliance, generation information and package ids, licensed and version.
+
+
 .. tool-data:: SBOM Utility
     :id: TOOL23
     :tool: SBOM Utility
@@ -184,6 +185,25 @@ SBOM Utility
 `SBOM Utility <https://github.com/mrutkows/sbom-utility>`_ is a CycloneDX and SPDX SBOM validation tool.
 
 
+.. tool-data:: SBOM Quality Scoring
+    :id: TOOL30
+    :tool: SBOM Quality Scoring
+    :consumption: yes
+    :cyclonedx: yes
+    :spdx: yes
+    :sbom_quality: yes
+
+
+.. _sbomqualityscoring:
+
+SBOM Quality Scoring
+####################
+
+`sbomqs <https://github.com/interlynk-io/sbomqs>`_ provides comprehensive quality scoring for your sboms. It provide a quick compliance check of your sboms with NTIA minimum elements. It uses license, spec compliance,
+data quality to help generate an accurate score for your sbom generator. Supports all SPDX, CycloneDX and SWID spec formats.
+
+
+
 .. tool-data:: ScanCode.io
     :id: TOOL24
     :tool: ScanCode.io
@@ -193,7 +213,6 @@ SBOM Utility
     :spdx: yes
     :vulnerabilty_scanning: yes
     :licensing: yes
-
 
 .. _scancodeio:
 
