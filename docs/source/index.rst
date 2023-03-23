@@ -18,3 +18,4 @@ Content List
 
    Specifications and Advisories <specs/index.rst>
    Tools <tooling/index.rst>
+   Useful References <useful_references/useful_references.rst>

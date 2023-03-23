@@ -14,7 +14,7 @@ release = '0.1'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['myst_parser','sphinx.ext.autosectionlabel','sphinxcontrib.plantuml','sphinx_needs']
+extensions = ['myst_parser','sphinx.ext.autosectionlabel','sphinxcontrib.plantuml','sphinx_needs', 'alabaster']
 
 templates_path = ['_templates']
 exclude_patterns = []
