@@ -47,8 +47,21 @@ SBOM Composer
     :spdx: yes
     :vulnerabilty_scanning: yes
 
-
 Tejolote
 ########
 
 `Tejolote <https://github.com/puerco/tejolote>`_ is a tool that consumes SBOMs and generates `SLSA <https://slsa.dev/>`_ provenance attestations about build runs.
+
+SBOM Assembler
+#############
+
+`SBOM Assembler <https://github.com/interlynk-io/sbomasm>`_ is a multi-specification tool for assembling component SBOMs into a product SBOM. The product SBOM can be merged flat (component SBOM relationships are not-preserved) or hierarchical (component SBOM relationships are preserved). The final product name, version, and metadata are configurable via CLI or configuration file.
+
+.. tool-data:: sbomasm
+    :id: TOOL30
+    :tool: sbomasm
+    :generation: yes
+    :consumption: yes
+    :cyclonedx: yes
+    :spdx: yes
+
